@@ -1,0 +1,57 @@
+.green {
+	background: #27ae60;
+
+}
+header {
+	padding: 75px 0;
+	color: #ecf0f1;
+}
+
+h1 {
+	font-size: 52pt;
+
+	padding-bottom: 40px;
+}
+
+h2 {
+	font-size: 32pt;
+	padding: 40px 0;
+}
+
+.centered-pills { text-align: center; }
+.centered-pills nav.nav-pills { display: inline-block; margin-bottom: 0; }
+.centered-pills > nav > li { display: inline; }
+.centered-pills > nav > li > a {
+	float: left;
+	padding: 25px;
+	font-size: 20px;
+	color: black;
+}
+
+article {
+	border-top: 1px solid black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+dd {
+	list-style: square;
+}
+
+.title > h2 > a {
+	color: black;
+}
+
+.title > h2 > a:hover {
+	color: #7f8c8d;
+}
+
+
+.source-link {
+	padding-left: 10px;
+	font-size: 12px;
+}

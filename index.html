@@ -3,21 +3,132 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<title>Brad McDermott</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <script src="bootstrap.js" type="text/javascript" charset="utf-8"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	<script src="jscript.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
+
+
 </head>
 <body>
-	<section class="project-list">
-		<article class="project-item">
-			<h2>imgDropper</h2>
-			<p><a href="http://imgdropper.com">imgDropper</a> is a Rails based web app that allows the user to easily upload and share images. I wanted to recreate a popular website (<a href="http://imgur.com">Imgur</a>) to learn new things and pull together everything I have learned recently into one complete application. Building a dynamic image sharing site from the ground up using Rails, CSS, and jQuery was a great learning experience.</p>
+	<div class="green">
+		<header class="container">
+			<div class="row">
+				<div class="span10 offset1">
+					<h1>
+						Brad McDermott
+					</h1>
+					<p class="lead">
+						I am a New York-based web developer with experience in Ruby/Rails, Javascript, HTML5, CSS3, and Backbone.js. I am interested in becoming part of a team that creates innovative products and solves difficult and interesting problems.
+					</p>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class=" centered-pills">
+		<nav class="nav nav-pills">
+			<li>
+				<a href="#imgdropper">imgDropper</a>
+			</li>
+			<li>
+				<a href="#puzzlefight">Puzzle Fight</a>
+			</li>
+			<li>
+				<a href="#newsreader">News Reader</a>
+			</li>
+			<li>
+				<a href="#snake">Snake</a>
+			</li>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<section class="span10 offset1 project-list">
+				<article class="project-item clearfix" id="imgdropper">
+					<div class="title text-center">
+						<h2>
+							<a href="http://imgdropper.com">imgDropper</a>
+							<a href="http://github.com/bmcd87/img_dropper" class="source-link muted">(Source)</a>
+						</h2>
+					</div>
+					<div>
+						<img src="images/imgdropper.png">
+					</div>
+					<div class="span10">
+					<h3>Features</h3>
+					<p>imgDropper is a Rails based web app that allows the user to easily upload and share images.</p>
+					<h4>Easily upload images</h4>
+					<ul>
+						<li>Choose a file from your computer, paste a url, or just drag and drop your image file onto the page for easy uploading.</li>
+						<li>Users do not have to be logged in to upload an image, only if they want to keep track of their images and have the ability to edit or delete.</li>
+					</ul>
+					<h4>Instantly receive links to send to your friends</h4>
+					<ul>
+						<li>Once you upload a picture, links are provided for the image's page as well as a direct link to the image file itself.</li>
+						<li>HTML embed code is provided for you to paste into your website as well.</li>
+					</ul>
+					<h4>See popular posts</h4>
+					<ul>
+						<li>The front page displays all of the most popular images on the site at the moment.</li>
+						<li>Upvote and Downvote images.</li>
+					</ul>
+					<h4>Discuss the images with others</h4>
+					<ul>
+						<li>Nested comments allow you to make a note about the image or reply to another person's comment, similar to reddit.</li>
+						<li>Upvote and downvote comments.</li>
+					</ul>
+					<!-- <h4>Technologies Used</h4>
+					<ul>
+						<li>Ruby on Rails</li>
+						<li>JQuery</li>
+						<li>JavaScript</li>
+						<li>AJAX</li>
+						<li>SQL</li>
+						<li>HTML5</li>
+						<li>CSS</li>
+						<li>Heroku</li>
+						<li>Amazon AWS</li>
+						<li>RSpec</li>
+						<li>Capybara</li>
+						<li>Kaminari</li>
+						<li>Paperclip</li>
+						<li>Figaro</li>
+					</ul> -->
 
-			<a href="http://imgdropper.com">imgDropper</a>
-			<a href="http://github.com/bmcd87/img_dropper">imgDropper Github</a>
-		</article>
-	</section>
+					</div>
+				</article>
+				<article class="project-item clearfix" id="puzzlefight">
+					<div class="title text-center">
+						<h2 class="text-center">
+							<a href="http://puzzlefight.bradmcdermott.com">Puzzle Fight</a>
+							<a href="http://github.com/bmcd87/puzzle_fight" class="source-link muted">(Source)</a>
+						</h2>
+					</div>
+					<div>
+						<img src="images/puzzlefight.png">
+					</div>
+				</article>
+				<article class="project-item clearfix" id="puzzlefight">
+					<div class="title text-center">
+						<h2 class="text-center">
+							<a href="http://newsreader.bradmcdermott.com">News Reader</a>
+							<a href="http://github.com/bmcd87/news_reader" class="source-link muted">(Source)</a>
+						</h2>
+					</div>
+					<div>
+						<img src="images/newsreader.png">
+					</div>
+
+
+
+
+				</article>
+			</section>
+		</div>
+	</div>
 
 	<footer>Email Me: <script type="text/javascript">
 //<![CDATA[
