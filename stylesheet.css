@@ -2,6 +2,11 @@
 	background: #27ae60;
 
 }
+
+body {
+	font-family: "Open Sans";
+}
+
 header {
 	padding: 75px 0;
 	color: #ecf0f1;
@@ -9,13 +14,16 @@ header {
 
 h1 {
 	font-size: 52pt;
-
 	padding-bottom: 40px;
 }
 
 h2 {
 	font-size: 32pt;
-	padding: 40px 0;
+	padding: 40px 0 30px 0;
+}
+
+h3 {
+	padding: 15px 0 0px 0;
 }
 
 .centered-pills { text-align: center; }
@@ -32,11 +40,17 @@ article {
 	border-top: 1px solid black;
 }
 
+.features {
+	padding: 15px 0;
+}
+
 a:hover {
 	text-decoration: none;
 }
 
-
+.summary {
+	padding: 15px 0;
+}
 
 dd {
 	list-style: square;
