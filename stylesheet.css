@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	padding: 75px 0;
+	padding: 75px 0 60px 0;
 	color: #ecf0f1;
 }
 
@@ -82,4 +82,16 @@ footer a:hover {
 .source-link {
 	padding-left: 10px;
 	font-size: 12px;
+}
+
+.icon-link {
+	margin-top: 30px;
+	float: left;
+	width: 60px;
+	display: block;
+	color: #2980b9;
+}
+
+.icon-link:hover {
+	color: #3498db;
 }
