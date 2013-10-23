@@ -64,15 +64,18 @@ dd {
 	color: #7f8c8d;
 }
 
-footer {
 
+
+.footer {
+	margin-top: 50px;
 }
 
 footer a {
 	float: right;
 	display: block;
-	padding: 20px;
+	padding: 15px;
 	color: white;
+
 }
 
 footer a:hover {
