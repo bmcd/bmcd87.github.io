@@ -92,9 +92,9 @@ footer a:hover {
 	float: left;
 	width: 60px;
 	display: block;
-	color: #ecf0f1;
+	color: #34495e;
 }
 
 .icon-link:hover {
-	color: #34495e;
+	color: #ecf0f1;
 }
