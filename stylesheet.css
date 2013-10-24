@@ -64,7 +64,15 @@ dd {
 	color: #7f8c8d;
 }
 
+.small-screen {
+	width: 100%;
+}
 
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 
 .footer {
 	margin-top: 50px;
