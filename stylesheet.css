@@ -95,7 +95,7 @@ footer a:hover {
 	font-size: 12px;
 }
 
-.icon-link {
+.icons-link {
 	margin-top: 30px;
 	float: left;
 	width: 60px;
@@ -103,6 +103,6 @@ footer a:hover {
 	color: #34495e;
 }
 
-.icon-link:hover {
+.icons-link:hover {
 	color: #ecf0f1;
 }
