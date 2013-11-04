@@ -106,3 +106,12 @@ footer a:hover {
 .icons-link:hover {
 	color: #ecf0f1;
 }
+
+#canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 10000;
+}
